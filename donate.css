@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 120px;
+    margin-bottom: 130px;
+    display: flex;
+    background: linear-gradient(180deg, #FFD3D3 0%, rgba(255, 89, 89, 0) 100%);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.section-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.btn-primary{
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    text-align: center;
+    border: none;
+}
+
+/* main section styles */
+.donate-today{
+    text-align: center;
+    margin: 0 370px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.donate-money{
+    display: flex;
+    text-align: center;
+}
+.donate-amount {
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+}
+.donate-money .h2{
+    background: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donate-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+}
+.input{
+    border: none;
+    border-bottom:1px solid #DADADA ;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #B3B3B3;
+    width: 100%;
+}
+.plan-container-head{
+    margin: 0 375px;
+    margin-top: 140px;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    gap: 25px;
+    margin: 0 160px;
+}
+.plan-type{
+    box-sizing: border-box;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+    width: 33.33%;
+}
+.plan-type img{
+    width: 53px;
+    height: 53px;
+}
+.plan-type h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contribute1-container, .contribute2-container{
+    margin: 130px 150px;
+    display: flex;
+    gap: 95px;
+    text-align: left;
+}
+.contribute1-container .text h2 , .contribute2-container .text h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.contribute1-container .text p, .contribute2-container .text p{
+    margin-bottom: 20px;
+}
+
+.footer-update{
+    margin-top: 130px;
+    margin-left: 375px;
+    margin-right: 375px;
+    margin-bottom: 50;
+}
+form{
+    margin: 0 310px;
+    background: #FFF4D6;
+    padding: 75px 190px;
+    display: flex;
+    justify-content: center;
+}
+input[type="email"]{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding-left: 5px;
+}
+input[type="submit"]{
+    font-family: 'Roboto';
+    background: #FF5959;
+    padding: 15px 40px;
+    border-radius: 0px 5px 5px 0px; 
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.footer-section{
+    margin-top: 130px;
+    background: #0B0D17;
+    padding: 40px 650px;
+    text-align: center;
+}
+.footer-section h3{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    }
+.footer-section p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
