@@ -174,3 +174,80 @@ input[type="submit"]{
     font-feature-settings: 'liga' off;
     color: #D9DBE1;
 }
+@media screen and (max-width: 576px){
+    img, .plan-type{
+        width: 100%;
+        height: 100%;
+    }
+    .header, .contribute1-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .header-title, .section-title{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .section-description{
+        margin-bottom: 20px;
+    }
+    .header, .donate-today, .plan-container-head, .plan-container, .contribute1-container, .contribute2-container, .footer-update, .footer-section{
+        margin: 0 0 20px 0;
+        padding: 20px;
+    }
+    .donate-money{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .plan-container, .contribute2-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contribute1-container .text h2 , .contribute2-container .text h2{
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    form, .donate-amount{
+        margin: 10px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    img, .plan-type{
+        width: 100%;
+        height: 100%;
+    }
+    .header, .contribute1-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .header-title, .section-title{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .section-description{
+        margin-bottom: 20px;
+    }
+    .header, .donate-today, .plan-container-head, .plan-container, .contribute1-container, .contribute2-container, .footer-update, .footer-section{
+        margin: 0 0 20px 0;
+        padding: 20px;
+    }
+    .donate-money{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .plan-container, .contribute2-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contribute1-container .text h2 , .contribute2-container .text h2{
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    form, .donate-amount{
+        margin: 10px;
+        padding: 20px;
+    }
+}
